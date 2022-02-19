@@ -34,15 +34,6 @@ window.addEventListener("DOMContentLoaded", () => {
     const data = window.nuiHandoverData
 
     if(data) {
-
-        app.ping = data.ping
-
-        app.admin = data.admin
-        app.dev = data.dev
-
-        app.group = data.group
-
-        app.name = data.name
-        app.players = data.players
+        
     }
 })
